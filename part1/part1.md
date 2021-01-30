@@ -31,9 +31,9 @@ the loop terminates.
 12. The function would throw an error because finalPrice and discounted are declared as const, and the for loop attempts to change\
 their values. 
 
-13. A) student.name B)  C)  D)  E)
+13. A) student.name B) student['Grad Year'] C) student.greeting() D) student['Favorite Teacher'].name E) student.courseLoad[0]
 
-14.
+14. 
 
 15.
 
@@ -46,4 +46,6 @@ their values.
 19.
 
 20.
+
+21.
 
