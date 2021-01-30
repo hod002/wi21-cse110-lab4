@@ -31,7 +31,7 @@ the loop terminates.
 12. The function would throw an error because finalPrice and discounted are declared as const, and the for loop attempts to change\
 their values. 
 
-13.
+13. A) student.name B)  C)  D)  E)
 
 14.
 
