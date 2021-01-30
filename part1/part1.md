@@ -33,19 +33,24 @@ their values.
 
 13. A) student.name B) student['Grad Year'] C) student.greeting() D) student['Favorite Teacher'].name E) student.courseLoad[0]
 
-14. 
+14. A) 32 because the '3' + indicates string concatentation. B) 1 because the "-" indicates subtraction so '3' is converted to int.\
+C) 3 because null is converted to 0 for addition. D) 3null because null is converted to a string for concatentation. E) 4 because true\
+is equal to 1. F) 0 because false is equal to 0 and this is addition, not string concatentation so null is 0. G) 3undefined because\
+the "3" + indicates string concatentation so undefined is converted to a string. H) NaN because undefined is equal to NaN during\
+arithmetic calculations and the "-" indicates subtraction and converts "3" to an int.
 
-15.
+15. A) true because '2' is converted to a number. B) false because both are strings, indicating string comparison; '2' has a greater\
+index than '1'. C) true because '2' is converted to a number. D) false because strict comparison checks types. E) false because true\
+is equal to 1. F) true because Boolean(2) returns true.
 
-16.
+16. == converts types before checking equality; === checks equality without type conversion.
 
-17.
+17. "How are you?" because 2 is compared to true, which is equal to 1; this evaluates to false. The second comparison is just 2, which\
+evaluates to true because any values other than zero, undefined, or null will evaluate to true. 
 
-18.
+19. [6, 8, 10] because newArr pushes the return value of doSomething(array[i], function(x) {return x* 2;}) during each loop iteration.\
+doSomething returns ((array[i] + 2) * 2) each iteration. The first value is (1 + 2) * 2 = 6; then, (2 + 2) * 2 = 8; then, (3 + 2) * 2\
+= 10.
 
-19.
-
-20.
-
-21.
+21. 1342
 
